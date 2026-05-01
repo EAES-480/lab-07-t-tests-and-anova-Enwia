@@ -15,6 +15,8 @@ editor_options:
   chunk_output_type: inline
 ---
 
+> GM: 9.75/10 - Excellent — Thoughtful, well-organized, and hits all key points. 
+
 ```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(lubridate)
@@ -172,6 +174,9 @@ tibble(
 
 > What does the p-value suggest about your null hypothesis?
 The p-value is 0.835, which is larger than the typical significance level of 0.05. This means it fails to reject the null hypothesis.
+
+> GM: Good answer — Clear fail-to-reject conclusion.
+
 ---
 
 ## 5) Compare with `t.test()`
@@ -462,6 +467,8 @@ Answer in **5–7 sentences**:
 - What stayed the same across all these tests?
 
 > *A one sample t-test compares a sample mean from one group mean, while a two-sample t-test compares the means of two different independent groups. A paired t-test is special because it can show the differences within matched pairs from the same number of observations. ANOVA is a generalization of the t-test because it can compare more than two groups at a time. Across all tests comparing the differences in means stayed the same. We saw in each test it uses a p-value to determine the statistical significance of a group.*
+
+> GM: -0.25 - Good overall, but a few spots could be more precise (e.g., “one group mean” should be “a hypothesized value”; “comparing the differences in means stayed the same” is a bit vague). Still shows solid understanding.
 
 ---
 
